@@ -26,7 +26,32 @@ const cats = ref([
     weight: "4 kg",
     favoriteFood: "What ever",
     img: "https://www.bubblypet.com/wp-content/uploads/2021/11/Beautiful-grey-cat-breed-portrait.jpg"
-  }
+  },
+  {
+    id: 32416,
+    name: "Dum",
+    age: "N/A",
+    weight: "6 kg",
+    favoriteFood: "Sea food",
+    img: "https://www.dcnewsnow.com/wp-content/uploads/sites/14/2022/07/Cat.jpg?w=876&h=493&crop=1"
+  },
+  {
+    id: 32417,
+    name: "Som Som",
+    age: "N/A",
+    weight: "4.5 kg",
+    favoriteFood: "Sea food",
+    img: "https://homepets.net/wp-content/uploads/2021/05/6456132123.jpg"
+  },
+  {
+    id: 32418,
+    name: "Thung Neng",
+    age: "5 yrs",
+    weight: "4.5 kg",
+    favoriteFood: "Any Thing",
+    img: "https://image.thainewsonline.co/uploads/images/contents/w1024/2022/08/AEm6XjUeXz5bGqTlT5GE.webp"
+  },
+
 ])
 </script>
 
