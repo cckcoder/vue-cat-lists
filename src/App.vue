@@ -13,7 +13,7 @@ import { RouterLink, RouterView } from 'vue-router'
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav fs-4">
-            <RouterLink to="/" class="nav-link">Home</RouterLink>
+            <RouterLink to="/" class="nav-link">Cats</RouterLink>
             <RouterLink to="/about" class="nav-link">About</RouterLink>
           </div>
         </div>
