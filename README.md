@@ -12,6 +12,15 @@ This template should help get you started developing with Vue 3 in Vite.
 
 > `npx create-vue cat-lists`
 
+## L5 Api call with axios
+
+* Mock API URLS
+https://my-json-server.typicode.com/cckcoder/mockup-db/cats
+
+* install axios
+
+`npm install axios`
+
 
 ## Project Setup
 
