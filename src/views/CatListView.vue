@@ -1,17 +1,17 @@
 <script setup>
 import { ref, onMounted } from 'vue'
-import axios from 'axios'
+import CatService from '@/services/CatService.js'
 import CatCard from '@/components/CatCard.vue'
 
 const cats = ref(null)
 
 onMounted(() => {
-  axios.get("https://my-json-server.typicode.com/cckcoder/mockup-db/cats")
+  CatService.getCats()
   .then((resp) => {
     cats.value = resp.data
   })
   .catch((error) => {
-    console.log("Error")
+    console.log('Error:', error)
   })
 })
 
