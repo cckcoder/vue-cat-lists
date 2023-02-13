@@ -17,8 +17,11 @@ defineProps({
     <h2>{{ cat.name }}</h2>
     <span>Age: {{ cat.age }}</span>
     <div>
-      <RouterLink to="/cat/32413">
-        <button class="btn btn-info">See more.</button>
+      <RouterLink 
+        class="btn btn-info mt-2 mb-2" 
+        :to="{ name: 'cat-details', params: { id: cat.id } }"
+      >
+        See more.
       </RouterLink>
     </div>
   </div>

@@ -12,8 +12,9 @@ const router = createRouter({
       component: CatListView
     },
     {
-      path: '/cat/32413',
+      path: '/cat/:id',
       name: 'cat-details',
+      props: true,
       component: CatDetailsView
     },
     {
