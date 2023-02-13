@@ -13,5 +13,8 @@ const apiClient = axios.create({
 export default {
   getCats() {
     return apiClient.get('/cats')
-  }
+  },
+  getCat(id) {
+    return apiClient.get('/cats/' + id)
+  },
 }

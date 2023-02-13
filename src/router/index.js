@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import CatListView from '../views/CatListView.vue'
+import CatDetailsView from '../views/CatDetailsView.vue'
 import AboutView from '../views/AboutView.vue'
 
 const router = createRouter({
@@ -7,8 +8,13 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      name: 'home',
+      name: 'cat-list',
       component: CatListView
+    },
+    {
+      path: '/cat/32413',
+      name: 'cat-details',
+      component: CatDetailsView
     },
     {
       path: '/about',
